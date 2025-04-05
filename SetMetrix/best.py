@@ -12,6 +12,7 @@ def setZeroes(matrix):
                 matrix[i][0] = 0
                 matrix[0][j] = 0
 
+
     # Step 2: Apply markers in reverse
     for i in reversed(range(rows)):
         for j in reversed(range(1, cols)):
